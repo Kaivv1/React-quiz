@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory use:
 
-### npm i
+### npm install
 
 ### npm run server
 I used json-server to fake rest API, so this command needs to be used in order for the app to work.
