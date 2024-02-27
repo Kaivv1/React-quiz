@@ -10,9 +10,6 @@
     "PORT": 3000
   },
   "scripts": {
-    "build": "npm build",
-    "install": "npm install",
-    "dev": "npm dev",
     "start": "npm start"
   }
 }
