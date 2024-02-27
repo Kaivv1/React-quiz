@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/index.js", "use": "@vercel/node" }],
+  "routes": [
+    { "src": "/api/.*", "dest": "api/index.js" },
+    { "handle": "filesystem" },
+    { "src": ".*", "dest": "public/index.html" }
+  ],
+  "env": {
+    "PORT": 3000
+  },
+  "scripts": {
+    "build": "npm build",
+    "install": "npm install",
+    "dev": "npm dev",
+    "start": "npm start"
+  }
+}
